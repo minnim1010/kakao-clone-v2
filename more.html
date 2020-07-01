@@ -7,20 +7,20 @@
       src="https://kit.fontawesome.com/5c305a73ea.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/g.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>More | Kakao clone</title>
   </head>
   <body>
-    <div class="status_bar">
-      <div class="status_bar__column">
-        <span class="status_bar__clock">11:06</span>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">11:06</span>
       </div>
-      <div class="status_bar__column">
+      <div class="status-bar__column">
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-up"></i>
         <i class="fas fa-wifi"></i>
         <i class="fas fa-ban"></i>
-        <span class="status_bar__battery-level">75%</span>
+        <span class="status-bar__battery-level">75%</span>
         <i class="fas fa-battery-three-quarters"></i>
       </div>
     </div>
@@ -31,33 +31,37 @@
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
-          <i class="fas fa-qrcode"></i>
-          <a href="settings.html">
-              <i class="fas fa-cog"></i>
-          </a>
         </span>
-        <span class="header__icon"></span>
-        <span class="header__icon"></span>
+        <span class="header__icon">
+          <i class="fas fa-qrcode"></i>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+        </a>
+        </span>
       </div>
+    </header>
       <main class="more">
         <header class="more__header">
           <div class="more__friend friend">
             <div class="friend__column">
-              <img src="images/cat-1.jpg" class="g-avatar friend__avatar" />
+              <img src="images/cat-1.jpg" class="friend__avatar g-avatar" />
               <div class="friend__content">
                 <span class="friend__name">
                   minmin
                 </span>
-                <span class="friend__email">
+                <span class="friend__status">
                   pmj10101234@gmail.com
                 </span>
               </div>
             </div>
             <div class="friend__column">
-                <i class="far fa-comment-alt"></i>
+                <i class="far fa-comment-alt fa-2x"></i>
               </div>
             </div>
           </div>
+        </header>
           <ul class="more__btn-list">
               <li class="more__btn">
                   <span class="more__btn-icon">
@@ -84,7 +88,6 @@
                     </span>
                   </li>
           </ul>
-        </header>
         <section class="more__suggestions">
             <h5 class="more__title">Suggestions</h5>
             <ul class="more__suggestions-list">
@@ -103,7 +106,6 @@
             </ul>
         </section>
       </main>
-    </header>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
